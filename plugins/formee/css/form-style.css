@@ -70,10 +70,15 @@ Style
 
 
 /* form msg status  */
-.form-msg-info, .form-msg-warning, .form-msg-error, .form-msg-success {
+.form-msg-question, .form-msg-info, .form-msg-warning, .form-msg-error, .form-msg-success {
 	padding-left: 27px;
 	font-size:0.9em;
 	border-bottom: 1px solid #ccc;
+}
+.form-msg-question {
+	background: #d1ecf7 url(../img/form-ic-info.png) no-repeat 5px 4px;
+	border-color:#bcdfef;
+	color:#11689e;
 }
 .form-msg-info {
 	background: #d1ecf7 url(../img/form-ic-info.png) no-repeat 5px 4px;
